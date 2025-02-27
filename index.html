@@ -38,7 +38,7 @@
         </ol>
 <table border="1" width="70%" >    
     <thead><b>Pendientes de la semana</b></thead>
-    <thead style="background-color: cyan;">
+    <thead style="background-color: darkcyan;">
         <tr>
             <th>Lunes</th>
             <th>Martes</th>
@@ -61,7 +61,24 @@
         </tr>
     </tbody>
 </table>
-   
+<br>
+<form style="background-color: darkcyan; width: 70%;">
+    <fieldset>
+        <h4>Contacto</h4>
+        <label>Usuario: </label>
+        <input type="text" name="usuario" placeholder="ingrese su usuario" required>
+        <label>Solicitud de contacto:</label>
+        <input type="text" name="Solicitud" placeholder="Solicitud de contacto" required>
+        <label>Email:</label>
+        <input type="email" name="CorreoElectronico" placeholder="Email" required>
+        <br><br>
+    </fieldset>
+</form>
+<br>
+<form style="position: relative;">    
+    <input type="submit" value="Enviar">
+    <input type="button" value="Borrar">
+</form>   
 
 </body>
 </html>
